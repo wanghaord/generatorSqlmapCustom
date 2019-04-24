@@ -1,0 +1,7 @@
+# generatorSqlmapCustom
+利用逆向工程生成代码demo
+1、打开generatorConfig.xml文件首先修改数据库连接信息，配成自己本地的
+2、javaModelGenerator配置生成pojo文件的路径（包名）
+3、sqlMapGenerator配置生成的Mapper文件的位置最好和上面的Pojo在一个父包中如本demo中的com.ego父包下
+4、javaClientGenerator和上面的Mapper的生成位置一致，不需要改
+5、最后一步打开GeneratorSqlmap类然后运行里面的Main方法即可
